@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+a:active {
+      text-decoration: underline;
+}
+
+
+
+header {
+
+    
+    height: 800px;
+    background-image: url("/images/main.jpg");
+    background-repeat: no-repeat, repeat;
+    margin-bottom: 50px;
+
+}
+
+
+nav{
+    
+    height: 40px;
+    display: flex;
+
+    justify-content: space-evenly;
+   
+    
+  
+}
+
+ul{
+    
+    position: fixed;
+    padding: 0px;
+    display: inline;
+    list-style: none;
+   
+}
+
+li{
+   
+    justify-content: space-between;
+    padding: 20px;
+    display: inline;
+     list-style: none;
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+p {
+
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo {
+
+   
+    width: 200px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+#logo1 {
+
+   
+    width: 230px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 0px;
+   
+    
+
+}
+
+section {
+
+    
+    height: 830px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat (5, 120px);
+
+    grid-gap: 15px;
+    grid-row-gap: 40px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+img{
+    
+    width:auto;
+    height: auto;
+}
+
+#a1 {
+
+
+    background-image: url("/images/1aboutmain.png");
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-repeat: no-repeat, repeat;
+
+  
+
+    
+}
+
+#a2 {
+
+
+    background-image: url("/images/ticket1.png");
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-repeat: no-repeat, repeat;
+
+
+}
+
+#a3 {
+
+
+    background-image: url("/images/inspo2.png");
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-repeat: no-repeat, repeat;
+
+
+}
+
+#a4 {
+
+
+    background-image: url("/images/guide.png");
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-repeat: no-repeat, repeat;
+
+
+}
+
+#a5 {
+
+
+    background-image: url("/images/speakers.png");
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-repeat: no-repeat, repeat;
+
+
+}
+
+#a6 {
+
+
+    background-image: url("/images/other.png");
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-repeat: no-repeat, repeat;
+
+}
+
+
+#sponsors{
+    
+      
+    height: 220px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px;
+
+    grid-gap: 15px;
+    
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+        background-color: aquamarine;
+    
+}
+
+@media screen and (min-width 650px) {
+    #topstories {}
+}

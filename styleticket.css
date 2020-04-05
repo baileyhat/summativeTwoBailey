@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+    margin: 0px;}
+
+a {
+    
+    padding-top: 20px;
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+a:active {
+      text-decoration: underline;
+}
+    
+nav{
+    
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin:0px;
+
+   
+   
+    
+  
+}
+
+ul{
+    
+    position: fixed;
+    padding: 0px;
+   display: flex;
+    padding:0px;
+    margin: 0px;
+
+    list-style: none;
+    
+   
+}
+
+li{
+   
+    margin: 0px;
+    padding: 20px;
+    display: inline;
+     list-style: none;
+}
+
+
+#logo{
+    padding-left: 10px;
+    width: 40px;
+    height:40px;
+    padding-top: 11px;
+    
+}
+
+header{
+    
+    
+    background-image: url("/images/ticketmain.png");
+    background-repeat: no-repeat, repeat;
+    height: 800px;
+    top: 0px;
+    bottom: 0; 
+    
+    
+}
+
+h1{
+    
+    font-size:80px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    
+    
+}
+
+
+
+h2{
+    
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    text-align: left;
+    padding-top: 30px;
+    margin-top: 0px; 
+   
+    
+   
+}
+
+
+
+p{
+    
+    font-size: 10px;
+    font-family: 'Lora', serif;
+    
+    
+   
+     
+}
+
+
+
+
+div{
+    
+  
+    margin-top: 60px;
+    margin: 0 auto;
+    max-width: 400px;
+   
+    
+
+}
+
+
+article{
+    
+    text-align: center;
+    margin:0 auto;
+    font-size: 20px;
+    max-width: 250px;
+    height: 40px;
+    
+}
+
+#firstName{
+    
+    width: 170px;
+    height:  25px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    
+    
+     
+}
+
+#lastName{
+    
+    width: 170px;
+    height:  25px;
+    margin-bottom: 30px;
+    
+}
+
+#email{
+    
+    width: 345px;
+    height:  25px;
+    margin-bottom: 20px;
+    
+}
+
+#message{
+    
+    width: 345px;
+    height:  25px;
+    
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+
+
+#cardnumber{
+    
+    width: 345px;
+    height:  25px;
+    margin-bottom: 20px;
+    
+}
+
+
+#expirydate{
+    
+    width: 170px;
+    height:  25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+    
+     
+}
+
+#cvv{
+    
+    width: 170px;
+    height:  25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+    
+     
+}
+
+#nameoncard{
+    
+    width: 345px;
+    height:  25px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+#submit{
+    
+    
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    max-width: 60px;
+    
+}
+
+

@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+    margin: 0px;}
+    
+
+a {
+    
+    padding-top: 20px;
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+a:active {
+      text-decoration: underline;
+}
+
+
+h1{
+    
+    font-size: 60px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    
+    font-size: 60px;
+    font-family: 'Lora', serif;
+    text-align: Left;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+p{
+    
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    text-align: center;
+    
+    
+}
+
+header{
+
+    height: 50px;
+    padding: 0px;
+}
+
+
+nav{
+    
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin:0px;
+
+   
+   
+    
+  
+}
+
+ul{
+    
+    position: fixed;
+    padding: 0px;
+   display: flex;
+    padding:0px;
+    margin: 0px;
+
+    list-style: none;
+    
+   
+}
+
+li{
+   
+    margin: 0px;
+    padding: 20px;
+    display: inline;
+     list-style: none;
+}
+
+
+#logo{
+    padding-left: 10px;
+    width: 40px;
+    height:40px;
+    padding-top: 11px;
+    
+}
+
+ 
+
+section{
+    
+   
+    height: 2300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat (4, 500px);
+  grid-gap: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+  
+}
+
+
+#a1{
+    
+     background-image: url("/images/kitchena.png");
+    background-repeat: no-repeat, repeat;
+    height:500px;
+   margin-bottom: 0px;
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+}
+
+#a2{
+    
+    background-image: url("/images/kitchenb.png");
+    background-repeat: no-repeat, repeat;
+    height:500px;
+   margin-top: 0px;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#a3{
+    
+     background-image: url("/images/kitchenc.png");
+    background-repeat: no-repeat, repeat;
+   margin-top: 0px;
+    height:500px;
+   
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+}
+
+#a4{
+    
+    background-image: url("/images/kitchend.png");
+    background-repeat: no-repeat, repeat;
+    height:500px;
+   margin-top: 0px;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#a5{
+    
+     background-image: url("/images/kitchene.png");
+    background-repeat: no-repeat, repeat;
+   margin-top: 0px;
+    height:500px;
+   
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+}
+
+#a6{
+    
+    background-image: url("/images/kitchenf.png");
+    background-repeat: no-repeat, repeat;
+    height:500px;
+   margin-top: 0px;
+  
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#a7{
+     background-image: url("/images/kitcheng.png");
+    background-repeat: no-repeat, repeat;
+   margin-top: 0px;
+    height:500px;
+ 
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+}
+
+
+
